@@ -3,12 +3,11 @@
 IVS Calculator
 
 ## Leader
-Jan Rajnoha (xrajno09)
-
+Jan Rajnoha
 ## Team members
-- Tomáš Juřička (xjuric27)
-- Tomáš Zubrik (xzubri00)
-- Marek Saloň (xsalon00)
+- Tomáš Juřička
+- Tomáš Zubrik
+- Marek Saloň
 
 ## Prostředí
 Windows 10 (podpora 32 i 64 bit verze)
