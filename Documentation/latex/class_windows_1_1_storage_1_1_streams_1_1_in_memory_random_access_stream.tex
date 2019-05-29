@@ -1,0 +1,196 @@
+\hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream}{}\section{Windows.\+Storage.\+Streams.\+In\+Memory\+Random\+Access\+Stream Class Reference}
+\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream}\index{Windows.\+Storage.\+Streams.\+In\+Memory\+Random\+Access\+Stream@{Windows.\+Storage.\+Streams.\+In\+Memory\+Random\+Access\+Stream}}
+Inheritance diagram for Windows.\+Storage.\+Streams.\+In\+Memory\+Random\+Access\+Stream\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a46eac03da7bc9cadfb0e54b02113e49d}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a46eac03da7bc9cadfb0e54b02113e49d}} 
+void {\bfseries Dispose} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa647257f534704ae03fa50c86a98f839}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa647257f534704ae03fa50c86a98f839}} 
+ulong {\bfseries get\+\_\+\+Size} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_ac8b380272b33f6167715e900ce8b155f}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_ac8b380272b33f6167715e900ce8b155f}} 
+void {\bfseries put\+\_\+\+Size} (ulong value)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a4eb2c7faf4803409163b311c912a083b}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a4eb2c7faf4803409163b311c912a083b}} 
+global\+::\+Windows.\+Storage.\+Streams.\+I\+Input\+Stream {\bfseries Get\+Input\+Stream\+At} (ulong position)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a60db0cabd4922fd35bbb2d64a7b381f1}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a60db0cabd4922fd35bbb2d64a7b381f1}} 
+ulong {\bfseries get\+\_\+\+Position} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a9dca3616e54f1113bfe6b6705612182b}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a9dca3616e54f1113bfe6b6705612182b}} 
+void {\bfseries Seek} (ulong position)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa39fd9f2f1b3be1d9282cff918d74651}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa39fd9f2f1b3be1d9282cff918d74651}} 
+bool {\bfseries get\+\_\+\+Can\+Read} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a6130af7a8779a5e32ddb40559aed883d}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a6130af7a8779a5e32ddb40559aed883d}} 
+bool {\bfseries get\+\_\+\+Can\+Write} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_add150174cbde0a2405293e8765f70bd3}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_add150174cbde0a2405293e8765f70bd3}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation\+With\+Progress$<$ global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer, uint $>$ {\bfseries Read\+Async} (global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer buffer, uint count, global\+::\+Windows.\+Storage.\+Streams.\+Input\+Stream\+Options options)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a812f40b23e43e9921ef7cc08a4bb0a58}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a812f40b23e43e9921ef7cc08a4bb0a58}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation\+With\+Progress$<$ uint, uint $>$ {\bfseries Write\+Async} (global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer buffer)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a43197e973b559a363116945f30e5a6da}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a43197e973b559a363116945f30e5a6da}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation$<$ bool $>$ {\bfseries Flush\+Async} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a58fe83e628070875813e711cb730b9e1}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a58fe83e628070875813e711cb730b9e1}} 
+{\bfseries In\+Memory\+Random\+Access\+Stream} (global\+::\+System.\+Int\+Ptr dummy)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a46eac03da7bc9cadfb0e54b02113e49d}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a46eac03da7bc9cadfb0e54b02113e49d}} 
+void {\bfseries Dispose} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa647257f534704ae03fa50c86a98f839}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa647257f534704ae03fa50c86a98f839}} 
+ulong {\bfseries get\+\_\+\+Size} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_ac8b380272b33f6167715e900ce8b155f}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_ac8b380272b33f6167715e900ce8b155f}} 
+void {\bfseries put\+\_\+\+Size} (ulong value)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a4eb2c7faf4803409163b311c912a083b}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a4eb2c7faf4803409163b311c912a083b}} 
+global\+::\+Windows.\+Storage.\+Streams.\+I\+Input\+Stream {\bfseries Get\+Input\+Stream\+At} (ulong position)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a60db0cabd4922fd35bbb2d64a7b381f1}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a60db0cabd4922fd35bbb2d64a7b381f1}} 
+ulong {\bfseries get\+\_\+\+Position} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a9dca3616e54f1113bfe6b6705612182b}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a9dca3616e54f1113bfe6b6705612182b}} 
+void {\bfseries Seek} (ulong position)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa39fd9f2f1b3be1d9282cff918d74651}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa39fd9f2f1b3be1d9282cff918d74651}} 
+bool {\bfseries get\+\_\+\+Can\+Read} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a6130af7a8779a5e32ddb40559aed883d}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a6130af7a8779a5e32ddb40559aed883d}} 
+bool {\bfseries get\+\_\+\+Can\+Write} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_add150174cbde0a2405293e8765f70bd3}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_add150174cbde0a2405293e8765f70bd3}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation\+With\+Progress$<$ global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer, uint $>$ {\bfseries Read\+Async} (global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer buffer, uint count, global\+::\+Windows.\+Storage.\+Streams.\+Input\+Stream\+Options options)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a812f40b23e43e9921ef7cc08a4bb0a58}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a812f40b23e43e9921ef7cc08a4bb0a58}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation\+With\+Progress$<$ uint, uint $>$ {\bfseries Write\+Async} (global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer buffer)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a43197e973b559a363116945f30e5a6da}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a43197e973b559a363116945f30e5a6da}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation$<$ bool $>$ {\bfseries Flush\+Async} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a58fe83e628070875813e711cb730b9e1}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a58fe83e628070875813e711cb730b9e1}} 
+{\bfseries In\+Memory\+Random\+Access\+Stream} (global\+::\+System.\+Int\+Ptr dummy)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a46eac03da7bc9cadfb0e54b02113e49d}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a46eac03da7bc9cadfb0e54b02113e49d}} 
+void {\bfseries Dispose} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa647257f534704ae03fa50c86a98f839}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa647257f534704ae03fa50c86a98f839}} 
+ulong {\bfseries get\+\_\+\+Size} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_ac8b380272b33f6167715e900ce8b155f}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_ac8b380272b33f6167715e900ce8b155f}} 
+void {\bfseries put\+\_\+\+Size} (ulong value)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a4eb2c7faf4803409163b311c912a083b}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a4eb2c7faf4803409163b311c912a083b}} 
+global\+::\+Windows.\+Storage.\+Streams.\+I\+Input\+Stream {\bfseries Get\+Input\+Stream\+At} (ulong position)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a60db0cabd4922fd35bbb2d64a7b381f1}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a60db0cabd4922fd35bbb2d64a7b381f1}} 
+ulong {\bfseries get\+\_\+\+Position} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a9dca3616e54f1113bfe6b6705612182b}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a9dca3616e54f1113bfe6b6705612182b}} 
+void {\bfseries Seek} (ulong position)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa39fd9f2f1b3be1d9282cff918d74651}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa39fd9f2f1b3be1d9282cff918d74651}} 
+bool {\bfseries get\+\_\+\+Can\+Read} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a6130af7a8779a5e32ddb40559aed883d}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a6130af7a8779a5e32ddb40559aed883d}} 
+bool {\bfseries get\+\_\+\+Can\+Write} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_add150174cbde0a2405293e8765f70bd3}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_add150174cbde0a2405293e8765f70bd3}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation\+With\+Progress$<$ global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer, uint $>$ {\bfseries Read\+Async} (global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer buffer, uint count, global\+::\+Windows.\+Storage.\+Streams.\+Input\+Stream\+Options options)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a812f40b23e43e9921ef7cc08a4bb0a58}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a812f40b23e43e9921ef7cc08a4bb0a58}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation\+With\+Progress$<$ uint, uint $>$ {\bfseries Write\+Async} (global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer buffer)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a43197e973b559a363116945f30e5a6da}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a43197e973b559a363116945f30e5a6da}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation$<$ bool $>$ {\bfseries Flush\+Async} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a58fe83e628070875813e711cb730b9e1}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a58fe83e628070875813e711cb730b9e1}} 
+{\bfseries In\+Memory\+Random\+Access\+Stream} (global\+::\+System.\+Int\+Ptr dummy)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a46eac03da7bc9cadfb0e54b02113e49d}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a46eac03da7bc9cadfb0e54b02113e49d}} 
+void {\bfseries Dispose} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa647257f534704ae03fa50c86a98f839}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa647257f534704ae03fa50c86a98f839}} 
+ulong {\bfseries get\+\_\+\+Size} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_ac8b380272b33f6167715e900ce8b155f}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_ac8b380272b33f6167715e900ce8b155f}} 
+void {\bfseries put\+\_\+\+Size} (ulong value)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a4eb2c7faf4803409163b311c912a083b}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a4eb2c7faf4803409163b311c912a083b}} 
+global\+::\+Windows.\+Storage.\+Streams.\+I\+Input\+Stream {\bfseries Get\+Input\+Stream\+At} (ulong position)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a60db0cabd4922fd35bbb2d64a7b381f1}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a60db0cabd4922fd35bbb2d64a7b381f1}} 
+ulong {\bfseries get\+\_\+\+Position} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a9dca3616e54f1113bfe6b6705612182b}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a9dca3616e54f1113bfe6b6705612182b}} 
+void {\bfseries Seek} (ulong position)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa39fd9f2f1b3be1d9282cff918d74651}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa39fd9f2f1b3be1d9282cff918d74651}} 
+bool {\bfseries get\+\_\+\+Can\+Read} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a6130af7a8779a5e32ddb40559aed883d}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a6130af7a8779a5e32ddb40559aed883d}} 
+bool {\bfseries get\+\_\+\+Can\+Write} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_add150174cbde0a2405293e8765f70bd3}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_add150174cbde0a2405293e8765f70bd3}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation\+With\+Progress$<$ global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer, uint $>$ {\bfseries Read\+Async} (global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer buffer, uint count, global\+::\+Windows.\+Storage.\+Streams.\+Input\+Stream\+Options options)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a812f40b23e43e9921ef7cc08a4bb0a58}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a812f40b23e43e9921ef7cc08a4bb0a58}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation\+With\+Progress$<$ uint, uint $>$ {\bfseries Write\+Async} (global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer buffer)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a43197e973b559a363116945f30e5a6da}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a43197e973b559a363116945f30e5a6da}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation$<$ bool $>$ {\bfseries Flush\+Async} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a58fe83e628070875813e711cb730b9e1}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a58fe83e628070875813e711cb730b9e1}} 
+{\bfseries In\+Memory\+Random\+Access\+Stream} (global\+::\+System.\+Int\+Ptr dummy)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a46eac03da7bc9cadfb0e54b02113e49d}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a46eac03da7bc9cadfb0e54b02113e49d}} 
+void {\bfseries Dispose} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa647257f534704ae03fa50c86a98f839}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa647257f534704ae03fa50c86a98f839}} 
+ulong {\bfseries get\+\_\+\+Size} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_ac8b380272b33f6167715e900ce8b155f}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_ac8b380272b33f6167715e900ce8b155f}} 
+void {\bfseries put\+\_\+\+Size} (ulong value)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a4eb2c7faf4803409163b311c912a083b}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a4eb2c7faf4803409163b311c912a083b}} 
+global\+::\+Windows.\+Storage.\+Streams.\+I\+Input\+Stream {\bfseries Get\+Input\+Stream\+At} (ulong position)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a60db0cabd4922fd35bbb2d64a7b381f1}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a60db0cabd4922fd35bbb2d64a7b381f1}} 
+ulong {\bfseries get\+\_\+\+Position} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a9dca3616e54f1113bfe6b6705612182b}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a9dca3616e54f1113bfe6b6705612182b}} 
+void {\bfseries Seek} (ulong position)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa39fd9f2f1b3be1d9282cff918d74651}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_aa39fd9f2f1b3be1d9282cff918d74651}} 
+bool {\bfseries get\+\_\+\+Can\+Read} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a6130af7a8779a5e32ddb40559aed883d}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a6130af7a8779a5e32ddb40559aed883d}} 
+bool {\bfseries get\+\_\+\+Can\+Write} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_add150174cbde0a2405293e8765f70bd3}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_add150174cbde0a2405293e8765f70bd3}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation\+With\+Progress$<$ global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer, uint $>$ {\bfseries Read\+Async} (global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer buffer, uint count, global\+::\+Windows.\+Storage.\+Streams.\+Input\+Stream\+Options options)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a812f40b23e43e9921ef7cc08a4bb0a58}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a812f40b23e43e9921ef7cc08a4bb0a58}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation\+With\+Progress$<$ uint, uint $>$ {\bfseries Write\+Async} (global\+::\+Windows.\+Storage.\+Streams.\+I\+Buffer buffer)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a43197e973b559a363116945f30e5a6da}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a43197e973b559a363116945f30e5a6da}} 
+global\+::\+Windows.\+Foundation.\+I\+Async\+Operation$<$ bool $>$ {\bfseries Flush\+Async} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a58fe83e628070875813e711cb730b9e1}\label{class_windows_1_1_storage_1_1_streams_1_1_in_memory_random_access_stream_a58fe83e628070875813e711cb730b9e1}} 
+{\bfseries In\+Memory\+Random\+Access\+Stream} (global\+::\+System.\+Int\+Ptr dummy)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+I\+V\+S\+Calc/bin/x86/\+Release/\+A\+R\+M/ilc/Safe\+Types.\+g.\+cs\end{DoxyCompactItemize}

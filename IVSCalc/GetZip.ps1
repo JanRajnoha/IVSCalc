@@ -1,0 +1,1 @@
+﻿Compress-Archive -Path ..\ -DestinationPath ..\xrajno09_xjuric27_xsalon00_xzubri00.zip

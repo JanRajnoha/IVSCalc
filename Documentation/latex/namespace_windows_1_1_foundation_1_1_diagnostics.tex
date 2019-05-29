@@ -1,0 +1,525 @@
+\hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics}{}\section{Windows.\+Foundation.\+Diagnostics Namespace Reference}
+\label{namespace_windows_1_1_foundation_1_1_diagnostics}\index{Windows.\+Foundation.\+Diagnostics@{Windows.\+Foundation.\+Diagnostics}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_windows_1_1_foundation_1_1_diagnostics_1_1_async_causality_tracer}{Async\+Causality\+Tracer}
+\item 
+interface \hyperlink{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics}{I\+Async\+Causality\+Tracer\+Statics}
+\item 
+class {\bfseries I\+Async\+Causality\+Tracer\+Statics\+\_\+\+\_\+\+Impl}
+\item 
+interface \hyperlink{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_tracing_status_changed_event_args}{I\+Tracing\+Status\+Changed\+Event\+Args}
+\item 
+class {\bfseries I\+Tracing\+Status\+Changed\+Event\+Args\+\_\+\+\_\+\+Impl}
+\item 
+class \hyperlink{class_windows_1_1_foundation_1_1_diagnostics_1_1_tracing_status_changed_event_args}{Tracing\+Status\+Changed\+Event\+Args}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_aa82022f66e6c5b053464b95c6479f156}\label{namespace_windows_1_1_foundation_1_1_diagnostics_aa82022f66e6c5b053464b95c6479f156}} 
+enum {\bfseries Causality\+Trace\+Level} \{ \newline
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+\newline
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+\newline
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+\newline
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a3a370b356cb758e027ffea6414919c72}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a3a370b356cb758e027ffea6414919c72}} 
+enum {\bfseries Causality\+Source} \{ \newline
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+\newline
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+\newline
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+\newline
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a45d3c9f2fddbec91a3035d3e79a246c8}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a45d3c9f2fddbec91a3035d3e79a246c8}} 
+enum {\bfseries Causality\+Relation} \{ \newline
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+\newline
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+\newline
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+\newline
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+\newline
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+\newline
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+\newline
+{\bfseries Error} = 4
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a63986dc9acde6ceb9a128207a5bd1e56}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a63986dc9acde6ceb9a128207a5bd1e56}} 
+enum {\bfseries Causality\+Synchronous\+Work} \{ \newline
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+\newline
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+\newline
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+\newline
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_aa82022f66e6c5b053464b95c6479f156}\label{namespace_windows_1_1_foundation_1_1_diagnostics_aa82022f66e6c5b053464b95c6479f156}} 
+enum {\bfseries Causality\+Trace\+Level} \{ \newline
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+\newline
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+\newline
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+\newline
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a3a370b356cb758e027ffea6414919c72}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a3a370b356cb758e027ffea6414919c72}} 
+enum {\bfseries Causality\+Source} \{ \newline
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+\newline
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+\newline
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+\newline
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a45d3c9f2fddbec91a3035d3e79a246c8}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a45d3c9f2fddbec91a3035d3e79a246c8}} 
+enum {\bfseries Causality\+Relation} \{ \newline
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+\newline
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+\newline
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+\newline
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+\newline
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+\newline
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+\newline
+{\bfseries Error} = 4
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a63986dc9acde6ceb9a128207a5bd1e56}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a63986dc9acde6ceb9a128207a5bd1e56}} 
+enum {\bfseries Causality\+Synchronous\+Work} \{ \newline
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+\newline
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+\newline
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+\newline
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_aa82022f66e6c5b053464b95c6479f156}\label{namespace_windows_1_1_foundation_1_1_diagnostics_aa82022f66e6c5b053464b95c6479f156}} 
+enum {\bfseries Causality\+Trace\+Level} \{ \newline
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+\newline
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+\newline
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+\newline
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a3a370b356cb758e027ffea6414919c72}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a3a370b356cb758e027ffea6414919c72}} 
+enum {\bfseries Causality\+Source} \{ \newline
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+\newline
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+\newline
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+\newline
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a45d3c9f2fddbec91a3035d3e79a246c8}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a45d3c9f2fddbec91a3035d3e79a246c8}} 
+enum {\bfseries Causality\+Relation} \{ \newline
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+\newline
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+\newline
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+\newline
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+\newline
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+\newline
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+\newline
+{\bfseries Error} = 4
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a63986dc9acde6ceb9a128207a5bd1e56}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a63986dc9acde6ceb9a128207a5bd1e56}} 
+enum {\bfseries Causality\+Synchronous\+Work} \{ \newline
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+\newline
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+\newline
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+\newline
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_aa82022f66e6c5b053464b95c6479f156}\label{namespace_windows_1_1_foundation_1_1_diagnostics_aa82022f66e6c5b053464b95c6479f156}} 
+enum {\bfseries Causality\+Trace\+Level} \{ \newline
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+\newline
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+\newline
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+\newline
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a3a370b356cb758e027ffea6414919c72}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a3a370b356cb758e027ffea6414919c72}} 
+enum {\bfseries Causality\+Source} \{ \newline
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+\newline
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+\newline
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+\newline
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a45d3c9f2fddbec91a3035d3e79a246c8}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a45d3c9f2fddbec91a3035d3e79a246c8}} 
+enum {\bfseries Causality\+Relation} \{ \newline
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+\newline
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+\newline
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+\newline
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+\newline
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+\newline
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+\newline
+{\bfseries Error} = 4
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a63986dc9acde6ceb9a128207a5bd1e56}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a63986dc9acde6ceb9a128207a5bd1e56}} 
+enum {\bfseries Causality\+Synchronous\+Work} \{ \newline
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+\newline
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+\newline
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+\newline
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_aa82022f66e6c5b053464b95c6479f156}\label{namespace_windows_1_1_foundation_1_1_diagnostics_aa82022f66e6c5b053464b95c6479f156}} 
+enum {\bfseries Causality\+Trace\+Level} \{ \newline
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+\newline
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+\newline
+{\bfseries Verbose} = 2, 
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2, 
+\newline
+{\bfseries Required} = 0, 
+{\bfseries Important} = 1, 
+{\bfseries Verbose} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a3a370b356cb758e027ffea6414919c72}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a3a370b356cb758e027ffea6414919c72}} 
+enum {\bfseries Causality\+Source} \{ \newline
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+\newline
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+\newline
+{\bfseries System} = 2, 
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2, 
+\newline
+{\bfseries Application} = 0, 
+{\bfseries Library} = 1, 
+{\bfseries System} = 2
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a45d3c9f2fddbec91a3035d3e79a246c8}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a45d3c9f2fddbec91a3035d3e79a246c8}} 
+enum {\bfseries Causality\+Relation} \{ \newline
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+\newline
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+\newline
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+\newline
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+{\bfseries Assign\+Delegate} = 0, 
+\newline
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+{\bfseries Error} = 4, 
+\newline
+{\bfseries Assign\+Delegate} = 0, 
+{\bfseries Join} = 1, 
+{\bfseries Choice} = 2, 
+{\bfseries Cancel} = 3, 
+\newline
+{\bfseries Error} = 4
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_foundation_1_1_diagnostics_a63986dc9acde6ceb9a128207a5bd1e56}\label{namespace_windows_1_1_foundation_1_1_diagnostics_a63986dc9acde6ceb9a128207a5bd1e56}} 
+enum {\bfseries Causality\+Synchronous\+Work} \{ \newline
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+\newline
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+\newline
+{\bfseries Execution} = 2, 
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2, 
+\newline
+{\bfseries Completion\+Notification} = 0, 
+{\bfseries Progress\+Notification} = 1, 
+{\bfseries Execution} = 2
+ \}
+\end{DoxyCompactItemize}

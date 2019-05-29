@@ -1,0 +1,16 @@
+Jak používat program Deviation:
+
+- Spustěte program pomocí příkazové řádky
+- V případě špatného spuštění program vypíše nápovědu
+- Program není optimalizován na samostatnou práci, vyžaduje příkazovou řádku.
+
+Program lze spouštět s těchto režimech:
+- Náhodně generovaná čísla
+    Zadejte parametr číslo
+
+    Deviation.exe [pocet_nahodnych_cisel]
+
+- Čísla načtena ze souboru
+    Zadejte cestu k soboru a parametr f
+
+    Deviation.exe [cesta_k_souboru] -f

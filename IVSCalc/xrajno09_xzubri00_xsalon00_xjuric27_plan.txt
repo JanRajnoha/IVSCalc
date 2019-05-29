@@ -1,0 +1,38 @@
+﻿Termíny:
+- 24. 3. - Uživatelské rozhraní aplikace včetně vestavěné nápovědy
+	 - testy pro matematickou knihovnu
+
+- 31. 3. - Knihovna matematických funkcí
+	 - dokumentace matematické knihovny a uživatelská příručka
+
+-  7. 4. - Propojení knihovny a aplikace včetně doplnění dokumentace programu
+	 - tvorba balíčku aplikace
+	 - publikování do Windows Store
+
+- 10. 4. - Mockupy
+
+
+Úkoly a přidělení:
+- Uživatelské rozhraní aplikace - Jan Rajnoha (xrajno09)
+- Testy - Tomáš Zubrik (xzubri00)
+- Matematická knihovna - Marek Saloň (xsalon00)
+- Dokumentace - Tomáš Juřička (xjuric27)
+
+
+Komunikační kanály:
+- (Video)hovory - Skype
+- Chat (zprávy) - Facebook Messenger
+
+
+Systém pro zprávu verzí a hosting:
+- Visual Studio Team Services
+
+Postup pro nahlédnutí do repozitáře:
+Email: IVS.observer@outlook.com
+Heslo: Aspekty1
+
+Kód: https://goid.visualstudio.com/_git/IVSCalc
+Historie: https://goid.visualstudio.com/_git/IVSCalc/history
+Branches: https://goid.visualstudio.com/_git/IVSCalc/branches
+Work Items: https://goid.visualstudio.com/IVSCalc/_backlogs?level=Backlog%20items&showParents=false&_a=backlog
+Výsledky buildů: https://goid.visualstudio.com/IVSCalc/_build

@@ -1,0 +1,115 @@
+\hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics}{}\section{Windows.\+Foundation.\+Diagnostics.\+I\+Async\+Causality\+Tracer\+Statics Interface Reference}
+\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics}\index{Windows.\+Foundation.\+Diagnostics.\+I\+Async\+Causality\+Tracer\+Statics@{Windows.\+Foundation.\+Diagnostics.\+I\+Async\+Causality\+Tracer\+Statics}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a38bdec695d719f8d62636334dcfb8dc5}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a38bdec695d719f8d62636334dcfb8dc5}} 
+void {\bfseries Trace\+Operation\+Creation} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, string operation\+Name, ulong related\+Context)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ac5e3ac3c90be930394f03ec531d863cd}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ac5e3ac3c90be930394f03ec531d863cd}} 
+void {\bfseries Trace\+Operation\+Completion} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Async\+Status status)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ad69dacbb1c6dd0ede745f227c69d8d16}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ad69dacbb1c6dd0ede745f227c69d8d16}} 
+void {\bfseries Trace\+Operation\+Relation} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Relation relation)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a749785813f9caf99b9ac0f4fd89700a2}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a749785813f9caf99b9ac0f4fd89700a2}} 
+void {\bfseries Trace\+Synchronous\+Work\+Start} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Synchronous\+Work work)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a1543ef1de5733e88b1cf2a3424c199f5}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a1543ef1de5733e88b1cf2a3424c199f5}} 
+void {\bfseries Trace\+Synchronous\+Work\+Completion} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Synchronous\+Work work)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_adecd1f58d29fb341c2489d08610ac331}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_adecd1f58d29fb341c2489d08610ac331}} 
+global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token {\bfseries add\+\_\+\+Tracing\+Status\+Changed} (global\+::\+System.\+Event\+Handler$<$ global\+::\+Windows.\+Foundation.\+Diagnostics.\+Tracing\+Status\+Changed\+Event\+Args $>$ handler)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a0b28a0699db651012d252a2063f84c0a}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a0b28a0699db651012d252a2063f84c0a}} 
+void {\bfseries remove\+\_\+\+Tracing\+Status\+Changed} (global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token cookie)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a38bdec695d719f8d62636334dcfb8dc5}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a38bdec695d719f8d62636334dcfb8dc5}} 
+void {\bfseries Trace\+Operation\+Creation} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, string operation\+Name, ulong related\+Context)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ac5e3ac3c90be930394f03ec531d863cd}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ac5e3ac3c90be930394f03ec531d863cd}} 
+void {\bfseries Trace\+Operation\+Completion} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Async\+Status status)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ad69dacbb1c6dd0ede745f227c69d8d16}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ad69dacbb1c6dd0ede745f227c69d8d16}} 
+void {\bfseries Trace\+Operation\+Relation} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Relation relation)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a749785813f9caf99b9ac0f4fd89700a2}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a749785813f9caf99b9ac0f4fd89700a2}} 
+void {\bfseries Trace\+Synchronous\+Work\+Start} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Synchronous\+Work work)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a1543ef1de5733e88b1cf2a3424c199f5}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a1543ef1de5733e88b1cf2a3424c199f5}} 
+void {\bfseries Trace\+Synchronous\+Work\+Completion} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Synchronous\+Work work)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_adecd1f58d29fb341c2489d08610ac331}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_adecd1f58d29fb341c2489d08610ac331}} 
+global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token {\bfseries add\+\_\+\+Tracing\+Status\+Changed} (global\+::\+System.\+Event\+Handler$<$ global\+::\+Windows.\+Foundation.\+Diagnostics.\+Tracing\+Status\+Changed\+Event\+Args $>$ handler)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a0b28a0699db651012d252a2063f84c0a}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a0b28a0699db651012d252a2063f84c0a}} 
+void {\bfseries remove\+\_\+\+Tracing\+Status\+Changed} (global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token cookie)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a38bdec695d719f8d62636334dcfb8dc5}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a38bdec695d719f8d62636334dcfb8dc5}} 
+void {\bfseries Trace\+Operation\+Creation} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, string operation\+Name, ulong related\+Context)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ac5e3ac3c90be930394f03ec531d863cd}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ac5e3ac3c90be930394f03ec531d863cd}} 
+void {\bfseries Trace\+Operation\+Completion} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Async\+Status status)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ad69dacbb1c6dd0ede745f227c69d8d16}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ad69dacbb1c6dd0ede745f227c69d8d16}} 
+void {\bfseries Trace\+Operation\+Relation} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Relation relation)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a749785813f9caf99b9ac0f4fd89700a2}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a749785813f9caf99b9ac0f4fd89700a2}} 
+void {\bfseries Trace\+Synchronous\+Work\+Start} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Synchronous\+Work work)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a1543ef1de5733e88b1cf2a3424c199f5}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a1543ef1de5733e88b1cf2a3424c199f5}} 
+void {\bfseries Trace\+Synchronous\+Work\+Completion} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Synchronous\+Work work)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_adecd1f58d29fb341c2489d08610ac331}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_adecd1f58d29fb341c2489d08610ac331}} 
+global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token {\bfseries add\+\_\+\+Tracing\+Status\+Changed} (global\+::\+System.\+Event\+Handler$<$ global\+::\+Windows.\+Foundation.\+Diagnostics.\+Tracing\+Status\+Changed\+Event\+Args $>$ handler)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a0b28a0699db651012d252a2063f84c0a}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a0b28a0699db651012d252a2063f84c0a}} 
+void {\bfseries remove\+\_\+\+Tracing\+Status\+Changed} (global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token cookie)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a38bdec695d719f8d62636334dcfb8dc5}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a38bdec695d719f8d62636334dcfb8dc5}} 
+void {\bfseries Trace\+Operation\+Creation} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, string operation\+Name, ulong related\+Context)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ac5e3ac3c90be930394f03ec531d863cd}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ac5e3ac3c90be930394f03ec531d863cd}} 
+void {\bfseries Trace\+Operation\+Completion} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Async\+Status status)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ad69dacbb1c6dd0ede745f227c69d8d16}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ad69dacbb1c6dd0ede745f227c69d8d16}} 
+void {\bfseries Trace\+Operation\+Relation} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Relation relation)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a749785813f9caf99b9ac0f4fd89700a2}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a749785813f9caf99b9ac0f4fd89700a2}} 
+void {\bfseries Trace\+Synchronous\+Work\+Start} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Synchronous\+Work work)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a1543ef1de5733e88b1cf2a3424c199f5}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a1543ef1de5733e88b1cf2a3424c199f5}} 
+void {\bfseries Trace\+Synchronous\+Work\+Completion} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Synchronous\+Work work)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_adecd1f58d29fb341c2489d08610ac331}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_adecd1f58d29fb341c2489d08610ac331}} 
+global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token {\bfseries add\+\_\+\+Tracing\+Status\+Changed} (global\+::\+System.\+Event\+Handler$<$ global\+::\+Windows.\+Foundation.\+Diagnostics.\+Tracing\+Status\+Changed\+Event\+Args $>$ handler)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a0b28a0699db651012d252a2063f84c0a}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a0b28a0699db651012d252a2063f84c0a}} 
+void {\bfseries remove\+\_\+\+Tracing\+Status\+Changed} (global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token cookie)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a38bdec695d719f8d62636334dcfb8dc5}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a38bdec695d719f8d62636334dcfb8dc5}} 
+void {\bfseries Trace\+Operation\+Creation} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, string operation\+Name, ulong related\+Context)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ac5e3ac3c90be930394f03ec531d863cd}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ac5e3ac3c90be930394f03ec531d863cd}} 
+void {\bfseries Trace\+Operation\+Completion} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Async\+Status status)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ad69dacbb1c6dd0ede745f227c69d8d16}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_ad69dacbb1c6dd0ede745f227c69d8d16}} 
+void {\bfseries Trace\+Operation\+Relation} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Relation relation)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a749785813f9caf99b9ac0f4fd89700a2}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a749785813f9caf99b9ac0f4fd89700a2}} 
+void {\bfseries Trace\+Synchronous\+Work\+Start} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+System.\+Guid platform\+Id, ulong operation\+Id, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Synchronous\+Work work)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a1543ef1de5733e88b1cf2a3424c199f5}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a1543ef1de5733e88b1cf2a3424c199f5}} 
+void {\bfseries Trace\+Synchronous\+Work\+Completion} (global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Trace\+Level trace\+Level, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Source source, global\+::\+Windows.\+Foundation.\+Diagnostics.\+Causality\+Synchronous\+Work work)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_adecd1f58d29fb341c2489d08610ac331}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_adecd1f58d29fb341c2489d08610ac331}} 
+global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token {\bfseries add\+\_\+\+Tracing\+Status\+Changed} (global\+::\+System.\+Event\+Handler$<$ global\+::\+Windows.\+Foundation.\+Diagnostics.\+Tracing\+Status\+Changed\+Event\+Args $>$ handler)
+\item 
+\mbox{\Hypertarget{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a0b28a0699db651012d252a2063f84c0a}\label{interface_windows_1_1_foundation_1_1_diagnostics_1_1_i_async_causality_tracer_statics_a0b28a0699db651012d252a2063f84c0a}} 
+void {\bfseries remove\+\_\+\+Tracing\+Status\+Changed} (global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token cookie)
+\end{DoxyCompactItemize}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+I\+V\+S\+Calc/bin/x86/\+Release/\+A\+R\+M/ilc/Safe\+Types.\+g.\+cs\end{DoxyCompactItemize}

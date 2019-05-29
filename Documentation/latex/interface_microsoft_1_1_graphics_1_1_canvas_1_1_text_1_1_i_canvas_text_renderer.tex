@@ -1,0 +1,115 @@
+\hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer}{}\section{Microsoft.\+Graphics.\+Canvas.\+Text.\+I\+Canvas\+Text\+Renderer Interface Reference}
+\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer}\index{Microsoft.\+Graphics.\+Canvas.\+Text.\+I\+Canvas\+Text\+Renderer@{Microsoft.\+Graphics.\+Canvas.\+Text.\+I\+Canvas\+Text\+Renderer}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a251cf38ca7077b36bbfacf617f946c68}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a251cf38ca7077b36bbfacf617f946c68}} 
+void {\bfseries Draw\+Glyph\+Run} (global\+::\+System.\+Numerics.\+Vector2 point, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Font\+Face font\+Face, float font\+Size, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\mbox{[}$\,$\mbox{]} glyphs, bool is\+Sideways, uint bidi\+Level, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode measuring\+Mode, string locale\+Name, string text\+String, int\mbox{[}$\,$\mbox{]} cluster\+Map\+Indices, uint character\+Index, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a554332d1d991fdd8a01a27fe4b6ce0d0}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a554332d1d991fdd8a01a27fe4b6ce0d0}} 
+void {\bfseries Draw\+Strikethrough} (global\+::\+System.\+Numerics.\+Vector2 point, float strikethrough\+Width, float strikethrough\+Thickness, float strikethrough\+Offset, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Direction text\+Direction, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode text\+Measuring\+Mode, string locale\+Name, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a2e1cdd345444973833ad4a9f67ce1601}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a2e1cdd345444973833ad4a9f67ce1601}} 
+void {\bfseries Draw\+Underline} (global\+::\+System.\+Numerics.\+Vector2 point, float underline\+Width, float underline\+Thickness, float underline\+Offset, float run\+Height, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Direction text\+Direction, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode text\+Measuring\+Mode, string locale\+Name, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a4ee8342ead2546751b855325b3e50a38}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a4ee8342ead2546751b855325b3e50a38}} 
+void {\bfseries Draw\+Inline\+Object} (global\+::\+System.\+Numerics.\+Vector2 point, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+I\+Canvas\+Text\+Inline\+Object inline\+Object, bool is\+Sideways, bool is\+Right\+To\+Left, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a47f1c1f5b81a4b3e71ddf01f64d0e1e9}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a47f1c1f5b81a4b3e71ddf01f64d0e1e9}} 
+bool {\bfseries get\+\_\+\+Pixel\+Snapping\+Disabled} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a7a6a6deb82895cb39ac5fd578ed86cfd}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a7a6a6deb82895cb39ac5fd578ed86cfd}} 
+global\+::\+System.\+Numerics.\+Matrix3x2 {\bfseries get\+\_\+\+Transform} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a6dde43e44cf9d35e89b72e336e4aa41c}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a6dde43e44cf9d35e89b72e336e4aa41c}} 
+float {\bfseries get\+\_\+\+Dpi} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a251cf38ca7077b36bbfacf617f946c68}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a251cf38ca7077b36bbfacf617f946c68}} 
+void {\bfseries Draw\+Glyph\+Run} (global\+::\+System.\+Numerics.\+Vector2 point, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Font\+Face font\+Face, float font\+Size, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\mbox{[}$\,$\mbox{]} glyphs, bool is\+Sideways, uint bidi\+Level, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode measuring\+Mode, string locale\+Name, string text\+String, int\mbox{[}$\,$\mbox{]} cluster\+Map\+Indices, uint character\+Index, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a554332d1d991fdd8a01a27fe4b6ce0d0}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a554332d1d991fdd8a01a27fe4b6ce0d0}} 
+void {\bfseries Draw\+Strikethrough} (global\+::\+System.\+Numerics.\+Vector2 point, float strikethrough\+Width, float strikethrough\+Thickness, float strikethrough\+Offset, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Direction text\+Direction, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode text\+Measuring\+Mode, string locale\+Name, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a2e1cdd345444973833ad4a9f67ce1601}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a2e1cdd345444973833ad4a9f67ce1601}} 
+void {\bfseries Draw\+Underline} (global\+::\+System.\+Numerics.\+Vector2 point, float underline\+Width, float underline\+Thickness, float underline\+Offset, float run\+Height, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Direction text\+Direction, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode text\+Measuring\+Mode, string locale\+Name, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a4ee8342ead2546751b855325b3e50a38}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a4ee8342ead2546751b855325b3e50a38}} 
+void {\bfseries Draw\+Inline\+Object} (global\+::\+System.\+Numerics.\+Vector2 point, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+I\+Canvas\+Text\+Inline\+Object inline\+Object, bool is\+Sideways, bool is\+Right\+To\+Left, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a47f1c1f5b81a4b3e71ddf01f64d0e1e9}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a47f1c1f5b81a4b3e71ddf01f64d0e1e9}} 
+bool {\bfseries get\+\_\+\+Pixel\+Snapping\+Disabled} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a7a6a6deb82895cb39ac5fd578ed86cfd}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a7a6a6deb82895cb39ac5fd578ed86cfd}} 
+global\+::\+System.\+Numerics.\+Matrix3x2 {\bfseries get\+\_\+\+Transform} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a6dde43e44cf9d35e89b72e336e4aa41c}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a6dde43e44cf9d35e89b72e336e4aa41c}} 
+float {\bfseries get\+\_\+\+Dpi} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a251cf38ca7077b36bbfacf617f946c68}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a251cf38ca7077b36bbfacf617f946c68}} 
+void {\bfseries Draw\+Glyph\+Run} (global\+::\+System.\+Numerics.\+Vector2 point, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Font\+Face font\+Face, float font\+Size, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\mbox{[}$\,$\mbox{]} glyphs, bool is\+Sideways, uint bidi\+Level, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode measuring\+Mode, string locale\+Name, string text\+String, int\mbox{[}$\,$\mbox{]} cluster\+Map\+Indices, uint character\+Index, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a554332d1d991fdd8a01a27fe4b6ce0d0}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a554332d1d991fdd8a01a27fe4b6ce0d0}} 
+void {\bfseries Draw\+Strikethrough} (global\+::\+System.\+Numerics.\+Vector2 point, float strikethrough\+Width, float strikethrough\+Thickness, float strikethrough\+Offset, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Direction text\+Direction, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode text\+Measuring\+Mode, string locale\+Name, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a2e1cdd345444973833ad4a9f67ce1601}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a2e1cdd345444973833ad4a9f67ce1601}} 
+void {\bfseries Draw\+Underline} (global\+::\+System.\+Numerics.\+Vector2 point, float underline\+Width, float underline\+Thickness, float underline\+Offset, float run\+Height, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Direction text\+Direction, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode text\+Measuring\+Mode, string locale\+Name, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a4ee8342ead2546751b855325b3e50a38}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a4ee8342ead2546751b855325b3e50a38}} 
+void {\bfseries Draw\+Inline\+Object} (global\+::\+System.\+Numerics.\+Vector2 point, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+I\+Canvas\+Text\+Inline\+Object inline\+Object, bool is\+Sideways, bool is\+Right\+To\+Left, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a47f1c1f5b81a4b3e71ddf01f64d0e1e9}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a47f1c1f5b81a4b3e71ddf01f64d0e1e9}} 
+bool {\bfseries get\+\_\+\+Pixel\+Snapping\+Disabled} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a7a6a6deb82895cb39ac5fd578ed86cfd}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a7a6a6deb82895cb39ac5fd578ed86cfd}} 
+global\+::\+System.\+Numerics.\+Matrix3x2 {\bfseries get\+\_\+\+Transform} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a6dde43e44cf9d35e89b72e336e4aa41c}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a6dde43e44cf9d35e89b72e336e4aa41c}} 
+float {\bfseries get\+\_\+\+Dpi} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a251cf38ca7077b36bbfacf617f946c68}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a251cf38ca7077b36bbfacf617f946c68}} 
+void {\bfseries Draw\+Glyph\+Run} (global\+::\+System.\+Numerics.\+Vector2 point, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Font\+Face font\+Face, float font\+Size, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\mbox{[}$\,$\mbox{]} glyphs, bool is\+Sideways, uint bidi\+Level, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode measuring\+Mode, string locale\+Name, string text\+String, int\mbox{[}$\,$\mbox{]} cluster\+Map\+Indices, uint character\+Index, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a554332d1d991fdd8a01a27fe4b6ce0d0}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a554332d1d991fdd8a01a27fe4b6ce0d0}} 
+void {\bfseries Draw\+Strikethrough} (global\+::\+System.\+Numerics.\+Vector2 point, float strikethrough\+Width, float strikethrough\+Thickness, float strikethrough\+Offset, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Direction text\+Direction, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode text\+Measuring\+Mode, string locale\+Name, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a2e1cdd345444973833ad4a9f67ce1601}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a2e1cdd345444973833ad4a9f67ce1601}} 
+void {\bfseries Draw\+Underline} (global\+::\+System.\+Numerics.\+Vector2 point, float underline\+Width, float underline\+Thickness, float underline\+Offset, float run\+Height, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Direction text\+Direction, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode text\+Measuring\+Mode, string locale\+Name, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a4ee8342ead2546751b855325b3e50a38}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a4ee8342ead2546751b855325b3e50a38}} 
+void {\bfseries Draw\+Inline\+Object} (global\+::\+System.\+Numerics.\+Vector2 point, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+I\+Canvas\+Text\+Inline\+Object inline\+Object, bool is\+Sideways, bool is\+Right\+To\+Left, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a47f1c1f5b81a4b3e71ddf01f64d0e1e9}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a47f1c1f5b81a4b3e71ddf01f64d0e1e9}} 
+bool {\bfseries get\+\_\+\+Pixel\+Snapping\+Disabled} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a7a6a6deb82895cb39ac5fd578ed86cfd}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a7a6a6deb82895cb39ac5fd578ed86cfd}} 
+global\+::\+System.\+Numerics.\+Matrix3x2 {\bfseries get\+\_\+\+Transform} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a6dde43e44cf9d35e89b72e336e4aa41c}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a6dde43e44cf9d35e89b72e336e4aa41c}} 
+float {\bfseries get\+\_\+\+Dpi} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a251cf38ca7077b36bbfacf617f946c68}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a251cf38ca7077b36bbfacf617f946c68}} 
+void {\bfseries Draw\+Glyph\+Run} (global\+::\+System.\+Numerics.\+Vector2 point, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Font\+Face font\+Face, float font\+Size, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\mbox{[}$\,$\mbox{]} glyphs, bool is\+Sideways, uint bidi\+Level, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode measuring\+Mode, string locale\+Name, string text\+String, int\mbox{[}$\,$\mbox{]} cluster\+Map\+Indices, uint character\+Index, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a554332d1d991fdd8a01a27fe4b6ce0d0}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a554332d1d991fdd8a01a27fe4b6ce0d0}} 
+void {\bfseries Draw\+Strikethrough} (global\+::\+System.\+Numerics.\+Vector2 point, float strikethrough\+Width, float strikethrough\+Thickness, float strikethrough\+Offset, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Direction text\+Direction, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode text\+Measuring\+Mode, string locale\+Name, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a2e1cdd345444973833ad4a9f67ce1601}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a2e1cdd345444973833ad4a9f67ce1601}} 
+void {\bfseries Draw\+Underline} (global\+::\+System.\+Numerics.\+Vector2 point, float underline\+Width, float underline\+Thickness, float underline\+Offset, float run\+Height, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Direction text\+Direction, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Text\+Measuring\+Mode text\+Measuring\+Mode, string locale\+Name, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a4ee8342ead2546751b855325b3e50a38}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a4ee8342ead2546751b855325b3e50a38}} 
+void {\bfseries Draw\+Inline\+Object} (global\+::\+System.\+Numerics.\+Vector2 point, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+I\+Canvas\+Text\+Inline\+Object inline\+Object, bool is\+Sideways, bool is\+Right\+To\+Left, object brush, global\+::\+Microsoft.\+Graphics.\+Canvas.\+Text.\+Canvas\+Glyph\+Orientation glyph\+Orientation)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a47f1c1f5b81a4b3e71ddf01f64d0e1e9}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a47f1c1f5b81a4b3e71ddf01f64d0e1e9}} 
+bool {\bfseries get\+\_\+\+Pixel\+Snapping\+Disabled} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a7a6a6deb82895cb39ac5fd578ed86cfd}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a7a6a6deb82895cb39ac5fd578ed86cfd}} 
+global\+::\+System.\+Numerics.\+Matrix3x2 {\bfseries get\+\_\+\+Transform} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a6dde43e44cf9d35e89b72e336e4aa41c}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_text_1_1_i_canvas_text_renderer_a6dde43e44cf9d35e89b72e336e4aa41c}} 
+float {\bfseries get\+\_\+\+Dpi} ()
+\end{DoxyCompactItemize}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+I\+V\+S\+Calc/bin/x86/\+Release/\+A\+R\+M/ilc/Safe\+Types.\+g.\+cs\end{DoxyCompactItemize}

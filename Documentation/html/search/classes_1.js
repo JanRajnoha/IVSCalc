@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['backease',['BackEase',['../class_windows_1_1_u_i_1_1_xaml_1_1_media_1_1_animation_1_1_back_ease.html',1,'Windows::UI::Xaml::Media::Animation']]],
+  ['backgroundactivatedeventargs',['BackgroundActivatedEventArgs',['../class_windows_1_1_application_model_1_1_activation_1_1_background_activated_event_args.html',1,'Windows::ApplicationModel::Activation']]],
+  ['backgroundtaskbuilder',['BackgroundTaskBuilder',['../class_windows_1_1_application_model_1_1_background_1_1_background_task_builder.html',1,'Windows::ApplicationModel::Background']]],
+  ['backgroundtaskregistration',['BackgroundTaskRegistration',['../class_windows_1_1_application_model_1_1_background_1_1_background_task_registration.html',1,'Windows::ApplicationModel::Background']]],
+  ['backrequestedeventargs',['BackRequestedEventArgs',['../class_windows_1_1_u_i_1_1_core_1_1_back_requested_event_args.html',1,'Windows::UI::Core']]],
+  ['basicproperties',['BasicProperties',['../class_windows_1_1_storage_1_1_file_properties_1_1_basic_properties.html',1,'Windows::Storage::FileProperties']]],
+  ['binding',['Binding',['../class_windows_1_1_u_i_1_1_xaml_1_1_data_1_1_binding.html',1,'Windows::UI::Xaml::Data']]],
+  ['bindingbase',['BindingBase',['../class_windows_1_1_u_i_1_1_xaml_1_1_data_1_1_binding_base.html',1,'Windows::UI::Xaml::Data']]],
+  ['bindingexpression',['BindingExpression',['../class_windows_1_1_u_i_1_1_xaml_1_1_data_1_1_binding_expression.html',1,'Windows::UI::Xaml::Data']]],
+  ['bindingexpressionbase',['BindingExpressionBase',['../class_windows_1_1_u_i_1_1_xaml_1_1_data_1_1_binding_expression_base.html',1,'Windows::UI::Xaml::Data']]],
+  ['bindingoperations',['BindingOperations',['../class_windows_1_1_u_i_1_1_xaml_1_1_data_1_1_binding_operations.html',1,'Windows::UI::Xaml::Data']]],
+  ['bindptr_5f_5fsystem_5fprivate_5finterop',['BINDPTR__System_Private_Interop',['../struct_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_b_i_n_d_p_t_r_____system___private___interop.html',1,'System::Runtime::InteropServices::ComTypes']]],
+  ['bitmapimage',['BitmapImage',['../class_windows_1_1_u_i_1_1_xaml_1_1_media_1_1_imaging_1_1_bitmap_image.html',1,'Windows::UI::Xaml::Media::Imaging']]],
+  ['bitmapsize',['BitmapSize',['../struct_windows_1_1_graphics_1_1_imaging_1_1_bitmap_size.html',1,'Windows::Graphics::Imaging']]],
+  ['bitmapsource',['BitmapSource',['../class_windows_1_1_u_i_1_1_xaml_1_1_media_1_1_imaging_1_1_bitmap_source.html',1,'Windows::UI::Xaml::Media::Imaging']]],
+  ['blendeffect',['BlendEffect',['../class_microsoft_1_1_graphics_1_1_canvas_1_1_effects_1_1_blend_effect.html',1,'Microsoft::Graphics::Canvas::Effects']]],
+  ['bordereffect',['BorderEffect',['../class_microsoft_1_1_graphics_1_1_canvas_1_1_effects_1_1_border_effect.html',1,'Microsoft::Graphics::Canvas::Effects']]],
+  ['bounceease',['BounceEase',['../class_windows_1_1_u_i_1_1_xaml_1_1_media_1_1_animation_1_1_bounce_ease.html',1,'Windows::UI::Xaml::Media::Animation']]],
+  ['brightnesseffect',['BrightnessEffect',['../class_microsoft_1_1_graphics_1_1_canvas_1_1_effects_1_1_brightness_effect.html',1,'Microsoft::Graphics::Canvas::Effects']]],
+  ['brush',['Brush',['../class_windows_1_1_u_i_1_1_xaml_1_1_media_1_1_brush.html',1,'Windows::UI::Xaml::Media']]],
+  ['button',['Button',['../class_windows_1_1_u_i_1_1_xaml_1_1_controls_1_1_button.html',1,'Windows::UI::Xaml::Controls']]],
+  ['buttonbase',['ButtonBase',['../class_windows_1_1_u_i_1_1_xaml_1_1_controls_1_1_primitives_1_1_button_base.html',1,'Windows::UI::Xaml::Controls::Primitives']]]
+];

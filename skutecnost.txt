@@ -1,0 +1,6 @@
+Vzhledem k tomu, že již mám skutečnost s tvorbou aplikací v týmu a vím, jak správně prácio rozvrhnout, tak se naše představy a skutečnost nelišili nijak razantně. 
+Všechny úkoly provedli přidělené osoby a jen ve výjimečných situacích do jejich práce někdo zasáhl (moje výpomoc při UI dokumentaci, Markova výpomoc při tvorbě testů, ...). 
+Námi zvolené termíny byly také dodrženy a případné prodlevy vznikaly pouze vytížením v období půlsemestrálních testů.
+Navíc obdivuji Marka a Tomáše Zubrika, kteří vytvářeli program v pro ně neznámém jazyce, kdy jsem vybral technologii Windows 10 a oni se museli přizpůsobit. Svůj úkol zvládli skvěle.
+
+Dle mého názoru, plán jsme splinili na 100%.

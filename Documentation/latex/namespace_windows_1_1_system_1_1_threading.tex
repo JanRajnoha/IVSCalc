@@ -1,0 +1,227 @@
+\hypertarget{namespace_windows_1_1_system_1_1_threading}{}\section{Windows.\+System.\+Threading Namespace Reference}
+\label{namespace_windows_1_1_system_1_1_threading}\index{Windows.\+System.\+Threading@{Windows.\+System.\+Threading}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+interface \hyperlink{interface_windows_1_1_system_1_1_threading_1_1_i_thread_pool_statics}{I\+Thread\+Pool\+Statics}
+\item 
+class {\bfseries I\+Thread\+Pool\+Statics\+\_\+\+\_\+\+Impl}
+\item 
+interface \hyperlink{interface_windows_1_1_system_1_1_threading_1_1_i_thread_pool_timer}{I\+Thread\+Pool\+Timer}
+\item 
+class {\bfseries I\+Thread\+Pool\+Timer\+\_\+\+\_\+\+Impl}
+\item 
+interface \hyperlink{interface_windows_1_1_system_1_1_threading_1_1_i_thread_pool_timer_statics}{I\+Thread\+Pool\+Timer\+Statics}
+\item 
+class {\bfseries I\+Thread\+Pool\+Timer\+Statics\+\_\+\+\_\+\+Impl}
+\item 
+class \hyperlink{class_windows_1_1_system_1_1_threading_1_1_thread_pool}{Thread\+Pool}
+\item 
+class \hyperlink{class_windows_1_1_system_1_1_threading_1_1_thread_pool_timer}{Thread\+Pool\+Timer}
+\item 
+class {\bfseries Timer\+Elapsed\+Handler\+\_\+\+\_\+\+Impl}
+\item 
+class {\bfseries Work\+Item\+Handler\+\_\+\+\_\+\+Impl}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_a6d436d8ad69b6001b82160043badf06a}\label{namespace_windows_1_1_system_1_1_threading_a6d436d8ad69b6001b82160043badf06a}} 
+enum {\bfseries Work\+Item\+Priority} \{ \newline
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+\newline
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+\newline
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+\newline
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_a94947e61a137a08a7882cdb6eb9afa18}\label{namespace_windows_1_1_system_1_1_threading_a94947e61a137a08a7882cdb6eb9afa18}} 
+enum {\bfseries Work\+Item\+Options} \+: uint \{ \newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+\newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+\newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_a6d436d8ad69b6001b82160043badf06a}\label{namespace_windows_1_1_system_1_1_threading_a6d436d8ad69b6001b82160043badf06a}} 
+enum {\bfseries Work\+Item\+Priority} \{ \newline
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+\newline
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+\newline
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+\newline
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_a94947e61a137a08a7882cdb6eb9afa18}\label{namespace_windows_1_1_system_1_1_threading_a94947e61a137a08a7882cdb6eb9afa18}} 
+enum {\bfseries Work\+Item\+Options} \+: uint \{ \newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+\newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+\newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_a6d436d8ad69b6001b82160043badf06a}\label{namespace_windows_1_1_system_1_1_threading_a6d436d8ad69b6001b82160043badf06a}} 
+enum {\bfseries Work\+Item\+Priority} \{ \newline
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+\newline
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+\newline
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+\newline
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_a94947e61a137a08a7882cdb6eb9afa18}\label{namespace_windows_1_1_system_1_1_threading_a94947e61a137a08a7882cdb6eb9afa18}} 
+enum {\bfseries Work\+Item\+Options} \+: uint \{ \newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+\newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+\newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_a6d436d8ad69b6001b82160043badf06a}\label{namespace_windows_1_1_system_1_1_threading_a6d436d8ad69b6001b82160043badf06a}} 
+enum {\bfseries Work\+Item\+Priority} \{ \newline
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+\newline
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+\newline
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+\newline
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_a94947e61a137a08a7882cdb6eb9afa18}\label{namespace_windows_1_1_system_1_1_threading_a94947e61a137a08a7882cdb6eb9afa18}} 
+enum {\bfseries Work\+Item\+Options} \+: uint \{ \newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+\newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+\newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_a6d436d8ad69b6001b82160043badf06a}\label{namespace_windows_1_1_system_1_1_threading_a6d436d8ad69b6001b82160043badf06a}} 
+enum {\bfseries Work\+Item\+Priority} \{ \newline
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+\newline
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+\newline
+{\bfseries Low} = -\/1, 
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1, 
+\newline
+{\bfseries Normal} = 0, 
+{\bfseries High} = 1, 
+{\bfseries Low} = -\/1
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_a94947e61a137a08a7882cdb6eb9afa18}\label{namespace_windows_1_1_system_1_1_threading_a94947e61a137a08a7882cdb6eb9afa18}} 
+enum {\bfseries Work\+Item\+Options} \+: uint \{ \newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+\newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u, 
+\newline
+{\bfseries None} = 0x0u, 
+{\bfseries Time\+Sliced} = 0x1u
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_a769805986ae5b6ec1226a4378be1a430}\label{namespace_windows_1_1_system_1_1_threading_a769805986ae5b6ec1226a4378be1a430}} 
+unsafe delegate void {\bfseries Work\+Item\+Handler} (global\+::\+Windows.\+Foundation.\+I\+Async\+Action operation)
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_system_1_1_threading_ada9171ec7f44c5098d30412a2c392a5c}\label{namespace_windows_1_1_system_1_1_threading_ada9171ec7f44c5098d30412a2c392a5c}} 
+unsafe delegate void {\bfseries Timer\+Elapsed\+Handler} (global\+::\+Windows.\+System.\+Threading.\+Thread\+Pool\+Timer timer)
+\end{DoxyCompactItemize}

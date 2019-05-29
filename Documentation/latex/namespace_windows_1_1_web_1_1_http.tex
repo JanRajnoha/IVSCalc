@@ -1,0 +1,2215 @@
+\hypertarget{namespace_windows_1_1_web_1_1_http}{}\section{Windows.\+Web.\+Http Namespace Reference}
+\label{namespace_windows_1_1_web_1_1_http}\index{Windows.\+Web.\+Http@{Windows.\+Web.\+Http}}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\end{DoxyCompactItemize}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_windows_1_1_web_1_1_http_1_1_http_client}{Http\+Client}
+\item 
+class \hyperlink{class_windows_1_1_web_1_1_http_1_1_http_method}{Http\+Method}
+\item 
+struct \hyperlink{struct_windows_1_1_web_1_1_http_1_1_http_progress}{Http\+Progress}
+\item 
+class {\bfseries Http\+Progress\+\_\+\+\_\+\+Impl}
+\item 
+class \hyperlink{class_windows_1_1_web_1_1_http_1_1_http_request_message}{Http\+Request\+Message}
+\item 
+class \hyperlink{class_windows_1_1_web_1_1_http_1_1_http_response_message}{Http\+Response\+Message}
+\item 
+interface \hyperlink{interface_windows_1_1_web_1_1_http_1_1_i_http_client}{I\+Http\+Client}
+\item 
+class {\bfseries I\+Http\+Client\+\_\+\+\_\+\+Impl}
+\item 
+interface \hyperlink{interface_windows_1_1_web_1_1_http_1_1_i_http_client_factory}{I\+Http\+Client\+Factory}
+\item 
+class {\bfseries I\+Http\+Client\+Factory\+\_\+\+\_\+\+Impl}
+\item 
+interface \hyperlink{interface_windows_1_1_web_1_1_http_1_1_i_http_content}{I\+Http\+Content}
+\item 
+class {\bfseries I\+Http\+Content\+\_\+\+\_\+\+Impl}
+\item 
+interface \hyperlink{interface_windows_1_1_web_1_1_http_1_1_i_http_method}{I\+Http\+Method}
+\item 
+class {\bfseries I\+Http\+Method\+\_\+\+\_\+\+Impl}
+\item 
+interface \hyperlink{interface_windows_1_1_web_1_1_http_1_1_i_http_method_statics}{I\+Http\+Method\+Statics}
+\item 
+class {\bfseries I\+Http\+Method\+Statics\+\_\+\+\_\+\+Impl}
+\item 
+interface \hyperlink{interface_windows_1_1_web_1_1_http_1_1_i_http_request_message}{I\+Http\+Request\+Message}
+\item 
+class {\bfseries I\+Http\+Request\+Message\+\_\+\+\_\+\+Impl}
+\item 
+interface \hyperlink{interface_windows_1_1_web_1_1_http_1_1_i_http_request_message_factory}{I\+Http\+Request\+Message\+Factory}
+\item 
+class {\bfseries I\+Http\+Request\+Message\+Factory\+\_\+\+\_\+\+Impl}
+\item 
+interface \hyperlink{interface_windows_1_1_web_1_1_http_1_1_i_http_response_message}{I\+Http\+Response\+Message}
+\item 
+class {\bfseries I\+Http\+Response\+Message\+\_\+\+\_\+\+Impl}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_web_1_1_http_a2378c3ed9d3b208a45e8b6dcc91ea4e4}\label{namespace_windows_1_1_web_1_1_http_a2378c3ed9d3b208a45e8b6dcc91ea4e4}} 
+enum {\bfseries Http\+Status\+Code} \{ \newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+\newline
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+\newline
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+\newline
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+\newline
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+\newline
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+\newline
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+\newline
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+\newline
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+\newline
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+\newline
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+\newline
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+\newline
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+\newline
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+\newline
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+\newline
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+\newline
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+\newline
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+\newline
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+\newline
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+\newline
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+\newline
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+\newline
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+\newline
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+\newline
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+\newline
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+\newline
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+\newline
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+\newline
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_web_1_1_http_aa0f55350f3367ec69564a41407e44b3b}\label{namespace_windows_1_1_web_1_1_http_aa0f55350f3367ec69564a41407e44b3b}} 
+enum {\bfseries Http\+Progress\+Stage} \{ \newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+\newline
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+\newline
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+\newline
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+\newline
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_web_1_1_http_a2378c3ed9d3b208a45e8b6dcc91ea4e4}\label{namespace_windows_1_1_web_1_1_http_a2378c3ed9d3b208a45e8b6dcc91ea4e4}} 
+enum {\bfseries Http\+Status\+Code} \{ \newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+\newline
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+\newline
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+\newline
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+\newline
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+\newline
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+\newline
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+\newline
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+\newline
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+\newline
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+\newline
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+\newline
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+\newline
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+\newline
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+\newline
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+\newline
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+\newline
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+\newline
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+\newline
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+\newline
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+\newline
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+\newline
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+\newline
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+\newline
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+\newline
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+\newline
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+\newline
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+\newline
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+\newline
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_web_1_1_http_aa0f55350f3367ec69564a41407e44b3b}\label{namespace_windows_1_1_web_1_1_http_aa0f55350f3367ec69564a41407e44b3b}} 
+enum {\bfseries Http\+Progress\+Stage} \{ \newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+\newline
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+\newline
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+\newline
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+\newline
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_web_1_1_http_a2378c3ed9d3b208a45e8b6dcc91ea4e4}\label{namespace_windows_1_1_web_1_1_http_a2378c3ed9d3b208a45e8b6dcc91ea4e4}} 
+enum {\bfseries Http\+Status\+Code} \{ \newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+\newline
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+\newline
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+\newline
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+\newline
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+\newline
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+\newline
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+\newline
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+\newline
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+\newline
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+\newline
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+\newline
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+\newline
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+\newline
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+\newline
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+\newline
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+\newline
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+\newline
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+\newline
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+\newline
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+\newline
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+\newline
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+\newline
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+\newline
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+\newline
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+\newline
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+\newline
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+\newline
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+\newline
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_web_1_1_http_aa0f55350f3367ec69564a41407e44b3b}\label{namespace_windows_1_1_web_1_1_http_aa0f55350f3367ec69564a41407e44b3b}} 
+enum {\bfseries Http\+Progress\+Stage} \{ \newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+\newline
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+\newline
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+\newline
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+\newline
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_web_1_1_http_a2378c3ed9d3b208a45e8b6dcc91ea4e4}\label{namespace_windows_1_1_web_1_1_http_a2378c3ed9d3b208a45e8b6dcc91ea4e4}} 
+enum {\bfseries Http\+Status\+Code} \{ \newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+\newline
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+\newline
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+\newline
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+\newline
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+\newline
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+\newline
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+\newline
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+\newline
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+\newline
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+\newline
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+\newline
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+\newline
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+\newline
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+\newline
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+\newline
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+\newline
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+\newline
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+\newline
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+\newline
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+\newline
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+\newline
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+\newline
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+\newline
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+\newline
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+\newline
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+\newline
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+\newline
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+\newline
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_web_1_1_http_aa0f55350f3367ec69564a41407e44b3b}\label{namespace_windows_1_1_web_1_1_http_aa0f55350f3367ec69564a41407e44b3b}} 
+enum {\bfseries Http\+Progress\+Stage} \{ \newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+\newline
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+\newline
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+\newline
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+\newline
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_web_1_1_http_a2378c3ed9d3b208a45e8b6dcc91ea4e4}\label{namespace_windows_1_1_web_1_1_http_a2378c3ed9d3b208a45e8b6dcc91ea4e4}} 
+enum {\bfseries Http\+Status\+Code} \{ \newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+\newline
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+\newline
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+\newline
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+\newline
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+\newline
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+\newline
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+\newline
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+\newline
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+\newline
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+\newline
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+\newline
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+\newline
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+\newline
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+\newline
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+\newline
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+\newline
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+\newline
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+\newline
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+\newline
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+\newline
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+\newline
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+\newline
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+\newline
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+\newline
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+\newline
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+\newline
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+\newline
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+\newline
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Continue} = 100, 
+{\bfseries Switching\+Protocols} = 101, 
+{\bfseries Processing} = 102, 
+\newline
+{\bfseries Ok} = 200, 
+{\bfseries Created} = 201, 
+{\bfseries Accepted} = 202, 
+{\bfseries Non\+Authoritative\+Information} = 203, 
+\newline
+{\bfseries No\+Content} = 204, 
+{\bfseries Reset\+Content} = 205, 
+{\bfseries Partial\+Content} = 206, 
+{\bfseries Multi\+Status} = 207, 
+\newline
+{\bfseries Already\+Reported} = 208, 
+{\bfseries I\+M\+Used} = 226, 
+{\bfseries Multiple\+Choices} = 300, 
+{\bfseries Moved\+Permanently} = 301, 
+\newline
+{\bfseries Found} = 302, 
+{\bfseries See\+Other} = 303, 
+{\bfseries Not\+Modified} = 304, 
+{\bfseries Use\+Proxy} = 305, 
+\newline
+{\bfseries Temporary\+Redirect} = 307, 
+{\bfseries Permanent\+Redirect} = 308, 
+{\bfseries Bad\+Request} = 400, 
+{\bfseries Unauthorized} = 401, 
+\newline
+{\bfseries Payment\+Required} = 402, 
+{\bfseries Forbidden} = 403, 
+{\bfseries Not\+Found} = 404, 
+{\bfseries Method\+Not\+Allowed} = 405, 
+\newline
+{\bfseries Not\+Acceptable} = 406, 
+{\bfseries Proxy\+Authentication\+Required} = 407, 
+{\bfseries Request\+Timeout} = 408, 
+{\bfseries Conflict} = 409, 
+\newline
+{\bfseries Gone} = 410, 
+{\bfseries Length\+Required} = 411, 
+{\bfseries Precondition\+Failed} = 412, 
+{\bfseries Request\+Entity\+Too\+Large} = 413, 
+\newline
+{\bfseries Request\+Uri\+Too\+Long} = 414, 
+{\bfseries Unsupported\+Media\+Type} = 415, 
+{\bfseries Requested\+Range\+Not\+Satisfiable} = 416, 
+{\bfseries Expectation\+Failed} = 417, 
+\newline
+{\bfseries Unprocessable\+Entity} = 422, 
+{\bfseries Locked} = 423, 
+{\bfseries Failed\+Dependency} = 424, 
+{\bfseries Upgrade\+Required} = 426, 
+\newline
+{\bfseries Precondition\+Required} = 428, 
+{\bfseries Too\+Many\+Requests} = 429, 
+{\bfseries Request\+Header\+Fields\+Too\+Large} = 431, 
+{\bfseries Internal\+Server\+Error} = 500, 
+\newline
+{\bfseries Not\+Implemented} = 501, 
+{\bfseries Bad\+Gateway} = 502, 
+{\bfseries Service\+Unavailable} = 503, 
+{\bfseries Gateway\+Timeout} = 504, 
+\newline
+{\bfseries Http\+Version\+Not\+Supported} = 505, 
+{\bfseries Variant\+Also\+Negotiates} = 506, 
+{\bfseries Insufficient\+Storage} = 507, 
+{\bfseries Loop\+Detected} = 508, 
+\newline
+{\bfseries Not\+Extended} = 510, 
+{\bfseries Network\+Authentication\+Required} = 511
+ \}
+\item 
+\mbox{\Hypertarget{namespace_windows_1_1_web_1_1_http_aa0f55350f3367ec69564a41407e44b3b}\label{namespace_windows_1_1_web_1_1_http_aa0f55350f3367ec69564a41407e44b3b}} 
+enum {\bfseries Http\+Progress\+Stage} \{ \newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+\newline
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+\newline
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+\newline
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+\newline
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90, 
+\newline
+{\bfseries None} = 0, 
+{\bfseries Detecting\+Proxy} = 10, 
+{\bfseries Resolving\+Name} = 20, 
+{\bfseries Connecting\+To\+Server} = 30, 
+\newline
+{\bfseries Negotiating\+Ssl} = 40, 
+{\bfseries Sending\+Headers} = 50, 
+{\bfseries Sending\+Content} = 60, 
+{\bfseries Waiting\+For\+Response} = 70, 
+\newline
+{\bfseries Receiving\+Headers} = 80, 
+{\bfseries Receiving\+Content} = 90
+ \}
+\end{DoxyCompactItemize}

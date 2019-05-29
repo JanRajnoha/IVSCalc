@@ -1,0 +1,211 @@
+\hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device}{}\section{Microsoft.\+Graphics.\+Canvas.\+I\+Canvas\+Device Interface Reference}
+\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device}\index{Microsoft.\+Graphics.\+Canvas.\+I\+Canvas\+Device@{Microsoft.\+Graphics.\+Canvas.\+I\+Canvas\+Device}}
+Inheritance diagram for Microsoft.\+Graphics.\+Canvas.\+I\+Canvas\+Device\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a71ebd55a219b2267a83a68fa3caf42a0}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a71ebd55a219b2267a83a68fa3caf42a0}} 
+bool {\bfseries get\+\_\+\+Force\+Software\+Renderer} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a898fb605ef7e1454030d832f6091f198}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a898fb605ef7e1454030d832f6091f198}} 
+int {\bfseries get\+\_\+\+Maximum\+Bitmap\+Size\+In\+Pixels} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a1bbc8a4c7b32d66babc6a466f3947580}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a1bbc8a4c7b32d66babc6a466f3947580}} 
+bool {\bfseries Is\+Pixel\+Format\+Supported} (global\+::\+Windows.\+Graphics.\+Direct\+X.\+Direct\+X\+Pixel\+Format pixel\+Format)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_acfa5f7ea5e23895e632195b070bb4023}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_acfa5f7ea5e23895e632195b070bb4023}} 
+bool {\bfseries Is\+Buffer\+Precision\+Supported} (global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Buffer\+Precision buffer\+Precision)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4004fcfc71e1035a4e3e56590d32a11a}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4004fcfc71e1035a4e3e56590d32a11a}} 
+ulong {\bfseries get\+\_\+\+Maximum\+Cache\+Size} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a3812c813e00bdc30b376b38962b40ba7}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a3812c813e00bdc30b376b38962b40ba7}} 
+void {\bfseries put\+\_\+\+Maximum\+Cache\+Size} (ulong value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a8e974c9c2295757c25f1c270c662d0df}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a8e974c9c2295757c25f1c270c662d0df}} 
+bool {\bfseries get\+\_\+\+Low\+Priority} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a82a3e875104020e0b8e886b72df60554}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a82a3e875104020e0b8e886b72df60554}} 
+void {\bfseries put\+\_\+\+Low\+Priority} (bool value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a883498a6511789a253e054e8db8972ac}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a883498a6511789a253e054e8db8972ac}} 
+global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token {\bfseries add\+\_\+\+Device\+Lost} (global\+::\+Windows.\+Foundation.\+Typed\+Event\+Handler$<$ global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Device, object $>$ value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4423eb62fed2e41b1e8429993ad3b1f1}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4423eb62fed2e41b1e8429993ad3b1f1}} 
+void {\bfseries remove\+\_\+\+Device\+Lost} (global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token token)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_adb664badebd02d30b2beead4a270a634}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_adb664badebd02d30b2beead4a270a634}} 
+bool {\bfseries Is\+Device\+Lost} (int hresult)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a6b74db4223ca531731fcff1891a390d8}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a6b74db4223ca531731fcff1891a390d8}} 
+void {\bfseries Raise\+Device\+Lost} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_ac7789f0058908fdfff7cf83b25227a23}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_ac7789f0058908fdfff7cf83b25227a23}} 
+global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Lock {\bfseries Lock} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a71ebd55a219b2267a83a68fa3caf42a0}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a71ebd55a219b2267a83a68fa3caf42a0}} 
+bool {\bfseries get\+\_\+\+Force\+Software\+Renderer} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a898fb605ef7e1454030d832f6091f198}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a898fb605ef7e1454030d832f6091f198}} 
+int {\bfseries get\+\_\+\+Maximum\+Bitmap\+Size\+In\+Pixels} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a1bbc8a4c7b32d66babc6a466f3947580}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a1bbc8a4c7b32d66babc6a466f3947580}} 
+bool {\bfseries Is\+Pixel\+Format\+Supported} (global\+::\+Windows.\+Graphics.\+Direct\+X.\+Direct\+X\+Pixel\+Format pixel\+Format)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_acfa5f7ea5e23895e632195b070bb4023}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_acfa5f7ea5e23895e632195b070bb4023}} 
+bool {\bfseries Is\+Buffer\+Precision\+Supported} (global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Buffer\+Precision buffer\+Precision)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4004fcfc71e1035a4e3e56590d32a11a}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4004fcfc71e1035a4e3e56590d32a11a}} 
+ulong {\bfseries get\+\_\+\+Maximum\+Cache\+Size} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a3812c813e00bdc30b376b38962b40ba7}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a3812c813e00bdc30b376b38962b40ba7}} 
+void {\bfseries put\+\_\+\+Maximum\+Cache\+Size} (ulong value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a8e974c9c2295757c25f1c270c662d0df}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a8e974c9c2295757c25f1c270c662d0df}} 
+bool {\bfseries get\+\_\+\+Low\+Priority} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a82a3e875104020e0b8e886b72df60554}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a82a3e875104020e0b8e886b72df60554}} 
+void {\bfseries put\+\_\+\+Low\+Priority} (bool value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a883498a6511789a253e054e8db8972ac}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a883498a6511789a253e054e8db8972ac}} 
+global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token {\bfseries add\+\_\+\+Device\+Lost} (global\+::\+Windows.\+Foundation.\+Typed\+Event\+Handler$<$ global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Device, object $>$ value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4423eb62fed2e41b1e8429993ad3b1f1}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4423eb62fed2e41b1e8429993ad3b1f1}} 
+void {\bfseries remove\+\_\+\+Device\+Lost} (global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token token)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_adb664badebd02d30b2beead4a270a634}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_adb664badebd02d30b2beead4a270a634}} 
+bool {\bfseries Is\+Device\+Lost} (int hresult)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a6b74db4223ca531731fcff1891a390d8}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a6b74db4223ca531731fcff1891a390d8}} 
+void {\bfseries Raise\+Device\+Lost} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_ac7789f0058908fdfff7cf83b25227a23}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_ac7789f0058908fdfff7cf83b25227a23}} 
+global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Lock {\bfseries Lock} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a71ebd55a219b2267a83a68fa3caf42a0}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a71ebd55a219b2267a83a68fa3caf42a0}} 
+bool {\bfseries get\+\_\+\+Force\+Software\+Renderer} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a898fb605ef7e1454030d832f6091f198}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a898fb605ef7e1454030d832f6091f198}} 
+int {\bfseries get\+\_\+\+Maximum\+Bitmap\+Size\+In\+Pixels} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a1bbc8a4c7b32d66babc6a466f3947580}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a1bbc8a4c7b32d66babc6a466f3947580}} 
+bool {\bfseries Is\+Pixel\+Format\+Supported} (global\+::\+Windows.\+Graphics.\+Direct\+X.\+Direct\+X\+Pixel\+Format pixel\+Format)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_acfa5f7ea5e23895e632195b070bb4023}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_acfa5f7ea5e23895e632195b070bb4023}} 
+bool {\bfseries Is\+Buffer\+Precision\+Supported} (global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Buffer\+Precision buffer\+Precision)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4004fcfc71e1035a4e3e56590d32a11a}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4004fcfc71e1035a4e3e56590d32a11a}} 
+ulong {\bfseries get\+\_\+\+Maximum\+Cache\+Size} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a3812c813e00bdc30b376b38962b40ba7}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a3812c813e00bdc30b376b38962b40ba7}} 
+void {\bfseries put\+\_\+\+Maximum\+Cache\+Size} (ulong value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a8e974c9c2295757c25f1c270c662d0df}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a8e974c9c2295757c25f1c270c662d0df}} 
+bool {\bfseries get\+\_\+\+Low\+Priority} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a82a3e875104020e0b8e886b72df60554}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a82a3e875104020e0b8e886b72df60554}} 
+void {\bfseries put\+\_\+\+Low\+Priority} (bool value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a883498a6511789a253e054e8db8972ac}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a883498a6511789a253e054e8db8972ac}} 
+global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token {\bfseries add\+\_\+\+Device\+Lost} (global\+::\+Windows.\+Foundation.\+Typed\+Event\+Handler$<$ global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Device, object $>$ value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4423eb62fed2e41b1e8429993ad3b1f1}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4423eb62fed2e41b1e8429993ad3b1f1}} 
+void {\bfseries remove\+\_\+\+Device\+Lost} (global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token token)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_adb664badebd02d30b2beead4a270a634}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_adb664badebd02d30b2beead4a270a634}} 
+bool {\bfseries Is\+Device\+Lost} (int hresult)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a6b74db4223ca531731fcff1891a390d8}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a6b74db4223ca531731fcff1891a390d8}} 
+void {\bfseries Raise\+Device\+Lost} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_ac7789f0058908fdfff7cf83b25227a23}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_ac7789f0058908fdfff7cf83b25227a23}} 
+global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Lock {\bfseries Lock} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a71ebd55a219b2267a83a68fa3caf42a0}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a71ebd55a219b2267a83a68fa3caf42a0}} 
+bool {\bfseries get\+\_\+\+Force\+Software\+Renderer} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a898fb605ef7e1454030d832f6091f198}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a898fb605ef7e1454030d832f6091f198}} 
+int {\bfseries get\+\_\+\+Maximum\+Bitmap\+Size\+In\+Pixels} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a1bbc8a4c7b32d66babc6a466f3947580}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a1bbc8a4c7b32d66babc6a466f3947580}} 
+bool {\bfseries Is\+Pixel\+Format\+Supported} (global\+::\+Windows.\+Graphics.\+Direct\+X.\+Direct\+X\+Pixel\+Format pixel\+Format)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_acfa5f7ea5e23895e632195b070bb4023}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_acfa5f7ea5e23895e632195b070bb4023}} 
+bool {\bfseries Is\+Buffer\+Precision\+Supported} (global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Buffer\+Precision buffer\+Precision)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4004fcfc71e1035a4e3e56590d32a11a}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4004fcfc71e1035a4e3e56590d32a11a}} 
+ulong {\bfseries get\+\_\+\+Maximum\+Cache\+Size} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a3812c813e00bdc30b376b38962b40ba7}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a3812c813e00bdc30b376b38962b40ba7}} 
+void {\bfseries put\+\_\+\+Maximum\+Cache\+Size} (ulong value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a8e974c9c2295757c25f1c270c662d0df}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a8e974c9c2295757c25f1c270c662d0df}} 
+bool {\bfseries get\+\_\+\+Low\+Priority} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a82a3e875104020e0b8e886b72df60554}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a82a3e875104020e0b8e886b72df60554}} 
+void {\bfseries put\+\_\+\+Low\+Priority} (bool value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a883498a6511789a253e054e8db8972ac}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a883498a6511789a253e054e8db8972ac}} 
+global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token {\bfseries add\+\_\+\+Device\+Lost} (global\+::\+Windows.\+Foundation.\+Typed\+Event\+Handler$<$ global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Device, object $>$ value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4423eb62fed2e41b1e8429993ad3b1f1}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4423eb62fed2e41b1e8429993ad3b1f1}} 
+void {\bfseries remove\+\_\+\+Device\+Lost} (global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token token)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_adb664badebd02d30b2beead4a270a634}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_adb664badebd02d30b2beead4a270a634}} 
+bool {\bfseries Is\+Device\+Lost} (int hresult)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a6b74db4223ca531731fcff1891a390d8}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a6b74db4223ca531731fcff1891a390d8}} 
+void {\bfseries Raise\+Device\+Lost} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_ac7789f0058908fdfff7cf83b25227a23}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_ac7789f0058908fdfff7cf83b25227a23}} 
+global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Lock {\bfseries Lock} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a71ebd55a219b2267a83a68fa3caf42a0}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a71ebd55a219b2267a83a68fa3caf42a0}} 
+bool {\bfseries get\+\_\+\+Force\+Software\+Renderer} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a898fb605ef7e1454030d832f6091f198}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a898fb605ef7e1454030d832f6091f198}} 
+int {\bfseries get\+\_\+\+Maximum\+Bitmap\+Size\+In\+Pixels} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a1bbc8a4c7b32d66babc6a466f3947580}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a1bbc8a4c7b32d66babc6a466f3947580}} 
+bool {\bfseries Is\+Pixel\+Format\+Supported} (global\+::\+Windows.\+Graphics.\+Direct\+X.\+Direct\+X\+Pixel\+Format pixel\+Format)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_acfa5f7ea5e23895e632195b070bb4023}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_acfa5f7ea5e23895e632195b070bb4023}} 
+bool {\bfseries Is\+Buffer\+Precision\+Supported} (global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Buffer\+Precision buffer\+Precision)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4004fcfc71e1035a4e3e56590d32a11a}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4004fcfc71e1035a4e3e56590d32a11a}} 
+ulong {\bfseries get\+\_\+\+Maximum\+Cache\+Size} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a3812c813e00bdc30b376b38962b40ba7}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a3812c813e00bdc30b376b38962b40ba7}} 
+void {\bfseries put\+\_\+\+Maximum\+Cache\+Size} (ulong value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a8e974c9c2295757c25f1c270c662d0df}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a8e974c9c2295757c25f1c270c662d0df}} 
+bool {\bfseries get\+\_\+\+Low\+Priority} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a82a3e875104020e0b8e886b72df60554}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a82a3e875104020e0b8e886b72df60554}} 
+void {\bfseries put\+\_\+\+Low\+Priority} (bool value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a883498a6511789a253e054e8db8972ac}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a883498a6511789a253e054e8db8972ac}} 
+global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token {\bfseries add\+\_\+\+Device\+Lost} (global\+::\+Windows.\+Foundation.\+Typed\+Event\+Handler$<$ global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Device, object $>$ value)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4423eb62fed2e41b1e8429993ad3b1f1}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a4423eb62fed2e41b1e8429993ad3b1f1}} 
+void {\bfseries remove\+\_\+\+Device\+Lost} (global\+::\+System.\+Runtime.\+Interop\+Services.\+Windows\+Runtime.\+Event\+Registration\+Token token)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_adb664badebd02d30b2beead4a270a634}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_adb664badebd02d30b2beead4a270a634}} 
+bool {\bfseries Is\+Device\+Lost} (int hresult)
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a6b74db4223ca531731fcff1891a390d8}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_a6b74db4223ca531731fcff1891a390d8}} 
+void {\bfseries Raise\+Device\+Lost} ()
+\item 
+\mbox{\Hypertarget{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_ac7789f0058908fdfff7cf83b25227a23}\label{interface_microsoft_1_1_graphics_1_1_canvas_1_1_i_canvas_device_ac7789f0058908fdfff7cf83b25227a23}} 
+global\+::\+Microsoft.\+Graphics.\+Canvas.\+Canvas\+Lock {\bfseries Lock} ()
+\end{DoxyCompactItemize}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+I\+V\+S\+Calc/bin/x86/\+Release/\+A\+R\+M/ilc/Safe\+Types.\+g.\+cs\end{DoxyCompactItemize}

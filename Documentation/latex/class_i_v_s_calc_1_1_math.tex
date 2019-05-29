@@ -1,0 +1,234 @@
+\hypertarget{class_i_v_s_calc_1_1_math}{}\section{I\+V\+S\+Calc.\+Math Class Reference}
+\label{class_i_v_s_calc_1_1_math}\index{I\+V\+S\+Calc.\+Math@{I\+V\+S\+Calc.\+Math}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \hyperlink{class_i_v_s_calc_1_1_math_afcc47676081091c0cc9f9becfade23e5}{Addition} (double x, double y)
+\begin{DoxyCompactList}\small\item\em Funkce pro součet dvou čísel \end{DoxyCompactList}\item 
+static double \hyperlink{class_i_v_s_calc_1_1_math_a466689d7dfdfcb531e4788994cb08ae6}{Substraction} (double x, double y)
+\begin{DoxyCompactList}\small\item\em Funkce pro výpočet rozdílu dvou čísel \end{DoxyCompactList}\item 
+static double \hyperlink{class_i_v_s_calc_1_1_math_abe981553a5b5e2e2d90ce6e4cf90fde0}{Multiplication} (double x, double y)
+\begin{DoxyCompactList}\small\item\em Funkce pro výpočet součinu dvou čísel \end{DoxyCompactList}\item 
+static double \hyperlink{class_i_v_s_calc_1_1_math_a2cd5712706a732856fee5014ab95561a}{Division} (double x, double y)
+\begin{DoxyCompactList}\small\item\em Funkce pro výpočet podílu dvou čísel \end{DoxyCompactList}\item 
+static double \hyperlink{class_i_v_s_calc_1_1_math_a66e3d4331a6998b5cc1e50c292791c0d}{Factorial} (double x)
+\begin{DoxyCompactList}\small\item\em Funkce pro výpočet faktoriálu daného čísla \end{DoxyCompactList}\item 
+static double \hyperlink{class_i_v_s_calc_1_1_math_a8f573242101420615d09975bea8de4f0}{Pow} (double x, int n)
+\begin{DoxyCompactList}\small\item\em Volající funkce pro výpočet n-\/té mocniny \end{DoxyCompactList}\item 
+static double \hyperlink{class_i_v_s_calc_1_1_math_a514b9abce73be4d00096aff1050a49b0}{Nth\+Root} (double x, int n)
+\begin{DoxyCompactList}\small\item\em Pomocná funkce pro výpočet odmocniny \end{DoxyCompactList}\item 
+static double \hyperlink{class_i_v_s_calc_1_1_math_a6c1a07d2ba9837900a6d1c34c9a77b22}{Ln} (double x)
+\begin{DoxyCompactList}\small\item\em Funkce pro výpočet přirozeného logaritmu \end{DoxyCompactList}\item 
+static double \hyperlink{class_i_v_s_calc_1_1_math_a4c872cd713ef445303a2034eb67003be}{Log} (double x)
+\begin{DoxyCompactList}\small\item\em Funkce pro výpočet logaritmu o základu 10 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_i_v_s_calc_1_1_math_a76b1f14c35c795f01ff1660628873153}\label{class_i_v_s_calc_1_1_math_a76b1f14c35c795f01ff1660628873153}} 
+static double {\bfseries Deviation} (double\mbox{[}$\,$\mbox{]} numbers)
+\item 
+static int \hyperlink{class_i_v_s_calc_1_1_math_a7ad6546f556d8dae510d5c69e3b2be6a}{Decimal\+Parser} (double Num)
+\begin{DoxyCompactList}\small\item\em Parser for decimal numbers and their count. Return 0, if numbers are whole. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_i_v_s_calc_1_1_math_afcc47676081091c0cc9f9becfade23e5}\label{class_i_v_s_calc_1_1_math_afcc47676081091c0cc9f9becfade23e5}} 
+\index{I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}!Addition@{Addition}}
+\index{Addition@{Addition}!I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}}
+\subsubsection{\texorpdfstring{Addition()}{Addition()}}
+{\footnotesize\ttfamily static double I\+V\+S\+Calc.\+Math.\+Addition (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funkce pro součet dvou čísel 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & První Sčítanec\\
+\hline
+{\em y} & Druhý Sčítanec\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Součet x a y 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_i_v_s_calc_1_1_math_a7ad6546f556d8dae510d5c69e3b2be6a}\label{class_i_v_s_calc_1_1_math_a7ad6546f556d8dae510d5c69e3b2be6a}} 
+\index{I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}!Decimal\+Parser@{Decimal\+Parser}}
+\index{Decimal\+Parser@{Decimal\+Parser}!I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}}
+\subsubsection{\texorpdfstring{Decimal\+Parser()}{DecimalParser()}}
+{\footnotesize\ttfamily static int I\+V\+S\+Calc.\+Math.\+Decimal\+Parser (\begin{DoxyParamCaption}\item[{double}]{Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Parser for decimal numbers and their count. Return 0, if numbers are whole. 
+
+Example of number rounding with Parser precision 
+\begin{DoxyCode}
+\hyperlink{namespace_system}{System}.Math.Round(1.123 * 5.21, Parser(1.123)+Parser(5.21)))
+\end{DoxyCode}
+ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Num} & Number\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Count of decimal places of numbers
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_i_v_s_calc_1_1_math_a2cd5712706a732856fee5014ab95561a}\label{class_i_v_s_calc_1_1_math_a2cd5712706a732856fee5014ab95561a}} 
+\index{I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}!Division@{Division}}
+\index{Division@{Division}!I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}}
+\subsubsection{\texorpdfstring{Division()}{Division()}}
+{\footnotesize\ttfamily static double I\+V\+S\+Calc.\+Math.\+Division (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funkce pro výpočet podílu dvou čísel 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Dělenec\\
+\hline
+{\em y} & Dělitel\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Podíl Dělence a dělitele
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_i_v_s_calc_1_1_math_a66e3d4331a6998b5cc1e50c292791c0d}\label{class_i_v_s_calc_1_1_math_a66e3d4331a6998b5cc1e50c292791c0d}} 
+\index{I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}!Factorial@{Factorial}}
+\index{Factorial@{Factorial}!I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}}
+\subsubsection{\texorpdfstring{Factorial()}{Factorial()}}
+{\footnotesize\ttfamily static double I\+V\+S\+Calc.\+Math.\+Factorial (\begin{DoxyParamCaption}\item[{double}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funkce pro výpočet faktoriálu daného čísla 
+
+Faktoriál je součin všech kladných celých čísel menší nebo rovných x 
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Faktoriál čísla
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_i_v_s_calc_1_1_math_a6c1a07d2ba9837900a6d1c34c9a77b22}\label{class_i_v_s_calc_1_1_math_a6c1a07d2ba9837900a6d1c34c9a77b22}} 
+\index{I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}!Ln@{Ln}}
+\index{Ln@{Ln}!I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}}
+\subsubsection{\texorpdfstring{Ln()}{Ln()}}
+{\footnotesize\ttfamily static double I\+V\+S\+Calc.\+Math.\+Ln (\begin{DoxyParamCaption}\item[{double}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funkce pro výpočet přirozeného logaritmu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Logaritmované číslo\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Přirozený logaritmus čísla x
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_i_v_s_calc_1_1_math_a4c872cd713ef445303a2034eb67003be}\label{class_i_v_s_calc_1_1_math_a4c872cd713ef445303a2034eb67003be}} 
+\index{I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}!Log@{Log}}
+\index{Log@{Log}!I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}}
+\subsubsection{\texorpdfstring{Log()}{Log()}}
+{\footnotesize\ttfamily static double I\+V\+S\+Calc.\+Math.\+Log (\begin{DoxyParamCaption}\item[{double}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funkce pro výpočet logaritmu o základu 10 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Logaritmované číslo\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Logaritmus čísla x
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_i_v_s_calc_1_1_math_abe981553a5b5e2e2d90ce6e4cf90fde0}\label{class_i_v_s_calc_1_1_math_abe981553a5b5e2e2d90ce6e4cf90fde0}} 
+\index{I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}!Multiplication@{Multiplication}}
+\index{Multiplication@{Multiplication}!I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}}
+\subsubsection{\texorpdfstring{Multiplication()}{Multiplication()}}
+{\footnotesize\ttfamily static double I\+V\+S\+Calc.\+Math.\+Multiplication (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funkce pro výpočet součinu dvou čísel 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & První činitel\\
+\hline
+{\em y} & Druhý činitel\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Součin činitělů
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_i_v_s_calc_1_1_math_a514b9abce73be4d00096aff1050a49b0}\label{class_i_v_s_calc_1_1_math_a514b9abce73be4d00096aff1050a49b0}} 
+\index{I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}!Nth\+Root@{Nth\+Root}}
+\index{Nth\+Root@{Nth\+Root}!I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}}
+\subsubsection{\texorpdfstring{Nth\+Root()}{NthRoot()}}
+{\footnotesize\ttfamily static double I\+V\+S\+Calc.\+Math.\+Nth\+Root (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Pomocná funkce pro výpočet odmocniny 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Odmocňované číslo\\
+\hline
+{\em n} & Odmocnina\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N-\/tá odmocnina z x
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_i_v_s_calc_1_1_math_a8f573242101420615d09975bea8de4f0}\label{class_i_v_s_calc_1_1_math_a8f573242101420615d09975bea8de4f0}} 
+\index{I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}!Pow@{Pow}}
+\index{Pow@{Pow}!I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}}
+\subsubsection{\texorpdfstring{Pow()}{Pow()}}
+{\footnotesize\ttfamily static double I\+V\+S\+Calc.\+Math.\+Pow (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Volající funkce pro výpočet n-\/té mocniny 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Umocňované číslo\\
+\hline
+{\em n} & Mocnina\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N-\/tá mocnina čísla
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_i_v_s_calc_1_1_math_a466689d7dfdfcb531e4788994cb08ae6}\label{class_i_v_s_calc_1_1_math_a466689d7dfdfcb531e4788994cb08ae6}} 
+\index{I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}!Substraction@{Substraction}}
+\index{Substraction@{Substraction}!I\+V\+S\+Calc\+::\+Math@{I\+V\+S\+Calc\+::\+Math}}
+\subsubsection{\texorpdfstring{Substraction()}{Substraction()}}
+{\footnotesize\ttfamily static double I\+V\+S\+Calc.\+Math.\+Substraction (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funkce pro výpočet rozdílu dvou čísel 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Menšenec\\
+\hline
+{\em y} & Menšitel\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Rozdíl čísel
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Math\+Class/Math.\+cs\end{DoxyCompactItemize}
